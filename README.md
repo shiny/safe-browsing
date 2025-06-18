@@ -12,12 +12,12 @@ Instead, it uses the v4/threatListUpdates:fetch API to download threat data and 
 > This project is still in the early validation stage, but it's already being used in u301.com to block user-generated malicious URLs.
 
 Features
-[x] Local URL lookup
-[x] Download hashes and store as a binary file
-[ ] URL Canonicalization [^1]
-[ ] Incremental updates to local database
-[ ] Support for all threat types
-[ ] Support for Safe Browsing V5 API
+- [x] Local URL lookup
+- [x] Download hashes and store as a binary file
+- [ ] URL Canonicalization [^1]
+- [ ] Incremental updates to local database
+- [ ] Support for all threat types
+- [ ] Support for Safe Browsing V5 API
 
 ## Download to Local Binary File
 
