@@ -1,0 +1,26 @@
+{
+  "name": "@shiny/safe-browsing",
+  "version": "0.0.1",
+  "module": "src/index.ts",
+  "license": "MIT",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shiny/safe-browsing"
+  },
+  "access": "public",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -d && chmod 755 build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
